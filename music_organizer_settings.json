@@ -1,0 +1,45 @@
+{
+    "formats": {
+        ".aac": true,
+        ".flac": true,
+        ".m4a": true,
+        ".mp3": true,
+        ".ogg": true,
+        ".wav": true,
+        ".wma": true
+    },
+    "operation_mode": "rename",
+    "renaming_rules": {
+        "remove_numbers": true,
+        "remove_artist_start": true,
+        "remove_artist_end": true,
+        "remove_brackets": false,
+        "normalize_spaces": true
+    },
+    "advanced_options": {
+        "shuffle_files": false,
+        "replace_existing": true,
+        "remove_empty_folders": true,
+        "create_backup": false
+    },
+    "filters": {
+        "use_min_size": false,
+        "min_size_kb": "100",
+        "use_exclude_pattern": false,
+        "exclude_pattern": ""
+    },
+    "window_geometry": "1100x700+52+52",
+    "remove_numbers": true,
+    "remove_artist_start": true,
+    "remove_artist_end": true,
+    "remove_brackets": true,
+    "normalize_spaces": true,
+    "shuffle_files": true,
+    "replace_existing": true,
+    "remove_empty_folders": true,
+    "create_backup": false,
+    "use_min_size": false,
+    "min_size": "100000000",
+    "use_exclude_pattern": false,
+    "exclude_pattern": ""
+}
